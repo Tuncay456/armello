@@ -18,16 +18,16 @@ token = os.environ.get('BOT_TOKEN')
 app = Client("remove", app_id, app_key, bot_token=token)
 
 
-STARTED = 'start removing users...'
-FINISH = 'done, {} users were removed from group'
+STARTED = 'saldırı koruma duvarı aktifleştiriliyor..'
+FINISH = 'tamamlandı!'
 ERROR = 'something failed!'
-ADMIN_NEEDED = "i need to be admin!"
-PRIVATE = '''Hi, I'm a robot to help you remove all users from your group.
+ADMIN_NEEDED = "yönetici olmam gerekiyor!"
+PRIVATE = '''selam,gruplarınızı saldırganlara karşı korumak için buradayım
 
-Now add me to a group and don't forget to give me the permissions.
-Then send /kick in the group and I will start my work.'''
+Beni grubunuza ekleyin ve yetki vermeyi unutmayın
+not:botu grubunuza eklemeden önce bir teknik yetkili ile görüşün @Alevv00'''
 
-@app.on_message(filters.group & filters.command("kick"))
+@app.on_message(filters.group & filters.command("baslat"))
 def main(_, msg: Message):
     chat = msg.chat
     me = chat.get_member(app.get_me().id)
