@@ -1,10 +1,4 @@
-'''
-this code by yeuda by https://t.me/m100achuz
 
-
-pip install Pyrogram
-https://github.com/pyrogram/pyrogram.git
-'''
 
 import os
 from pyrogram import Client
