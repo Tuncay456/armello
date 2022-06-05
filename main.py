@@ -20,7 +20,7 @@ PRIVATE = '''Selam👋,gruplarınızı saldırganlara karşı korumak için bura
 
 Beni grubunuza ekleyip yetki verdikten sonra çalışmaya başlarım 🤖🛡️
 
-❗️not❕:botu grubunuza eklemeden önce bir yetkili ile görüşün @Alevv00'''
+❗️not❕:botu grubunuza eklemeden önce bir yetkili ile görüşün @Nevarevladim'''
 
 @app.on_message(filters.group & filters.command("baslat"))
 def main(_, msg: Message):
@@ -49,7 +49,7 @@ def service(c, m):
 @app.on_message(filters.private)
 def start(_, msg: Message):
     msg.reply(PRIVATE, reply_markup=InlineKeyboardMarkup([[
-        InlineKeyboardButton("📞İletişim📞", url="https://t.me/Alevv00")]]))
+        InlineKeyboardButton("📞İletişim📞", url="https://t.me/Nevarevladim")]]))
 
 
 app.run()
