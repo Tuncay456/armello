@@ -1,5 +1,5 @@
 {
-  "name": "RemoveAllBot",
+  "name": "Removealll_bot",
   "env": {
     "BOT_TOKEN": {
       "description": "Your bot token, as a string.",
