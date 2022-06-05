@@ -5,11 +5,11 @@
       "description": "Your bot token, as a string.",
       "value": ""
     },
-    "API_ID": {
+    "API_ID":"15781409"
       "description": "Get this value from https://my.telegram.org",
       "value": ""
     },
-    "API_HASH": {
+    "API_HASH":"0499f7f54f3fbb56b43acb6edf2d9696"
       "description": "Get this value from https://my.telegram.org",
       "value": ""
 }
